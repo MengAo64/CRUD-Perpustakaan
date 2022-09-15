@@ -1,0 +1,61 @@
+
+
+body{
+    background-color: #553939;
+}
+.kotak{
+    background-color: #A47E3B;
+    height: 370px;
+    width: 700px;
+    margin: 50px auto 0px auto;
+    padding-top: 50px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #2298ff;
+}
+
+.kotak p{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    padding-top: 8px;
+    padding-left: 10px;
+    border: 2px solid black;
+    border-radius: 30px 0px 0px 30px;
+    background-color: white;
+    width: 600px;
+    height: 40px;
+
+}
+
+.kotak h2{
+    color: rgb(255, 255, 255);
+}
+
+.kotak-tombol{
+    margin-top: 70px;
+}
+.kotak-tombol a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: cursive;
+    margin-top: 2px;
+    margin-left: 370px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #2298ff;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 30px 0px;
+    transition: all 0.5s ease;
+}
+.kotak-tombol a:hover{
+    background-color: black;
+    color: red;
+    border: 3px solid rgb(255, 0, 0);
+}
